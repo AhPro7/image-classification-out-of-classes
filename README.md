@@ -47,3 +47,36 @@ This approach allows for the identification of images that may not fit into the 
 
 ![image](https://github.com/AhPro7/image-classification-out-of-classes/assets/39713678/51f8ee19-094d-4aec-96ac-a2974c9c00e7)
 ![](siml.gif)
+
+test images
+
+![image](https://github.com/AhPro7/image-classification-out-of-classes/assets/39713678/4fa3c8d3-8511-4e41-8030-3b7850e4702e)
+
+res
+
+![image](https://github.com/AhPro7/image-classification-out-of-classes/assets/39713678/1f8577a7-cb38-45eb-b138-2691b17595a3)
+
+### 3.2 Discriminator
+In addition to the cosine similarity approach, I also implemented a discriminator model which is (VIT) too inspired by the concept of Generative Adversarial Networks (GANs). The discriminator acts as a binary classifier to determine whether an image is similar to the dataset or not.
+
+Using the Intel dataset [here](https://www.kaggle.com/datasets/puneet6060/intel-image-classification). as a reference instead of random noise, I trained the discriminator to distinguish between images that resemble the dataset and those that do not. The discriminator model learns to identify key patterns and features present in the dataset images, enabling it to make informed decisions.
+![image](https://github.com/AhPro7/image-classification-out-of-classes/assets/39713678/3d321f8b-b523-464c-bc47-415b40f1b62e)
+
+res
+![image](https://github.com/AhPro7/image-classification-out-of-classes/assets/39713678/da4d672d-4895-467b-b013-f903a9ffb7fe)
+
+## Image search engine
+soon..
+
+## 🎉 Conclusion 🎉
+
+That brings us to the end of this "Image Classification Out-of-Classes" repository. Using PyTorch and the timm library, we have successfully developed effective image classification models.
+
+But wait, there's more to come! In the next repository file, we will explore the fascinating world of image search engines. Get ready to dive into the exciting realm of visual search and uncover its possibilities.
+
+
+ # Why did the image classifier bring a ladder? Because it wanted to reach new heights of accuracy! **sorry will be last one**
+
+
+
+
