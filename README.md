@@ -46,3 +46,4 @@ Next, when an input image is presented, I compare its feature vector with the pr
 This approach allows for the identification of images that may not fit into the predefined classes. By leveraging cosine similarity and threshold comparisons, I can provide a mechanism for detecting and handling images that deviate from the expected classes.
 
 ![image](https://github.com/AhPro7/image-classification-out-of-classes/assets/39713678/51f8ee19-094d-4aec-96ac-a2974c9c00e7)
+![](siml.gif)
