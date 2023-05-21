@@ -4,7 +4,7 @@ Hello there! Welcome to my "Image Classification Out-of-Classes" project. This r
 
 ## Project Overview
 
-In this project, I aim to solve the image classification problem for lung images. I have designed and evaluated a classifier using the powerful Visionary Image Transformer (Vit). Additionally, I have explored two solutions for images that fall outside the designated classes.
+In this project, I aim to solve the image classification problem for lung images. I have designed and evaluated a classifier using the powerful Vision Transformer (Vit). Additionally, I have explored two solutions for images that fall outside the designated classes.
 
 ## Getting Started
 
@@ -16,7 +16,7 @@ As I delve into this project, I encounter an imbalanced dataset. To address this
 ![image](https://github.com/AhPro7/image-classification-out-of-classes/assets/39713678/b48d2fcb-bb88-4d83-80ba-1f347ca5ad26)
 
 ### 2. Classifier
-For the classification task, I used the powerful Visionary Image Transformer (Vit) model. To ensure optimal performance, I implemented two different approaches using transfer learning techniques, as outlined in the book "Deep Learning for Vision Systems."
+For the classification task, I used the powerful Vision Transformer  (Vit) model. To ensure optimal performance, I implemented two different approaches using transfer learning techniques, as outlined in the book "Deep Learning for Vision Systems."
 
 ![image](https://github.com/AhPro7/image-classification-out-of-classes/assets/39713678/51a59f2e-a7e8-431d-8f7e-ea4ee43edb44)
 
