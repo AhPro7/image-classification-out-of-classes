@@ -62,13 +62,34 @@ In addition to the cosine similarity approach, I also implemented a discriminato
 Using the Intel dataset [here](https://www.kaggle.com/datasets/puneet6060/intel-image-classification). as a reference instead of random noise, I trained the discriminator to distinguish between images that resemble the dataset and those that do not. The discriminator model learns to identify key patterns and features present in the dataset images, enabling it to make informed decisions.
 ![image](https://github.com/AhPro7/image-classification-out-of-classes/assets/39713678/3d321f8b-b523-464c-bc47-415b40f1b62e)
 
-res
+#### res
 ![image](https://github.com/AhPro7/image-classification-out-of-classes/assets/39713678/da4d672d-4895-467b-b013-f903a9ffb7fe)
 
 ## Image search engine
-soon..
+
+It utilizes the ResNet-50 without taining deep learning model to extract feature vectors from images and compares them with the vectors of images in the dataset. 
+I randomly choose 5 classes to test in it  
+
+
+this is clustring for them
+
+![image](https://github.com/AhPro7/image-classification-out-of-classes/assets/39713678/67c74d10-356b-44c0-956b-c6fe046bc046)
+
+#### Test cases
+
+The first image is considered as the query image, while the remaining images in the dataset are considered as similar images. It is important to note that the query image is included in the list of similar images, as it is inherently similar to itself.
+
+![image](https://github.com/AhPro7/image-classification-out-of-classes/assets/39713678/0b87c88a-7eca-4192-a232-56339b8367c1)
+![image](https://github.com/AhPro7/image-classification-out-of-classes/assets/39713678/d454b7a4-1608-4cc9-b558-d53f1535ef4a)
+
+#### Test cases with just CNN not trained
+
+![image](https://github.com/AhPro7/image-classification-out-of-classes/assets/39713678/4817d14f-64ab-442f-8266-c7f26471e3da)
+![image](https://github.com/AhPro7/image-classification-out-of-classes/assets/39713678/e0ac6965-c6cd-4952-82eb-7263a0783f05)
 
 ## 🎉 Conclusion 🎉
+
+[ref](https://github.com/IbrahimSobh/imageclassification)
 
 That brings us to the end of this "Image Classification Out-of-Classes" repository. Using PyTorch and the timm library, we have successfully developed effective image classification models.
 
