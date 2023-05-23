@@ -84,6 +84,8 @@ The first image is considered as the query image, while the remaining images in 
 
 #### Test cases with just CNN not trained
 
+![image](https://github.com/AhPro7/image-classification-out-of-classes/assets/39713678/b3916a21-c2ec-4fe4-bd1f-b6bd6336e4e9)
+
 ![image](https://github.com/AhPro7/image-classification-out-of-classes/assets/39713678/4817d14f-64ab-442f-8266-c7f26471e3da)
 ![image](https://github.com/AhPro7/image-classification-out-of-classes/assets/39713678/e0ac6965-c6cd-4952-82eb-7263a0783f05)
 
